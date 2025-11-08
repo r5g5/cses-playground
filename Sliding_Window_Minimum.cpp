@@ -45,6 +45,11 @@ public:
     void print() const {
         std::cout << _ans << std::endl;
     }
+
+    ~Solution() {
+        _d.clear();
+        _ans = 0;
+    }
 };
 
 int main() {
